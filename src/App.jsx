@@ -9,7 +9,7 @@ import { MobileMenu } from './components/MobileMenu';
 import { Home } from './components/sections/Home';
 import { Projects } from "./components/sections/Projects";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,14 +17,11 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Router basename="/">
-      {/* Navbar stays outside Routes so it shows on every page */}
+    <Router> {/* No basename needed with HashRouter */}
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
-        {/* You can add /about or /education routes here later */}
       </Routes>
     </Router>
   );
