@@ -15,7 +15,7 @@ export const Home = () => {
       <div 
         className="absolute inset-0 z-0 pointer-events-none"
         style={{
-          backgroundImage: "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%),url('/skyline.jpg')", 
+          backgroundImage: "linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%),url('skyline.jpg')", 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.23, 
@@ -83,7 +83,7 @@ export const Home = () => {
                   See My Work
               </Link>
               <a
-                href="/Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
+                href="Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-black text-white rounded hover:bg-gray-600 transition"

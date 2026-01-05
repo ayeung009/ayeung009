@@ -81,7 +81,7 @@ export const Projects = () => {
       hardware: "DE1-SoC (Cyclone V)",
       githubLink: "#",
       demoLink: "#",
-      image: "/sorting.png" // Add image path later
+      image: "sorting.png" // Add image path later
     },
     {
       title: "Live Speech Translation Device",
@@ -90,7 +90,7 @@ export const Projects = () => {
       hardware: "Arduino UNO",
       githubLink: "#",
       demoLink: "#",
-      image: "/VerbaLink.jpg"
+      image: "VerbaLink.jpg"
     },
     {
       title: "Battleship AI Engine",
@@ -99,7 +99,7 @@ export const Projects = () => {
       hardware: "Java Swing",
       githubLink: "#",
       demoLink: "#",
-      image: "/battleship (1).png"
+      image: "battleship (1).png"
     },
     {
       title: "DMOJ UACC Contest",
@@ -108,7 +108,7 @@ export const Projects = () => {
       hardware: "dmoj.ca",
       githubLink: "https://dmoj.ca/contest/uacc1",
       demoLink: "https://dmoj.ca/contest/uacc1",
-      image: "/dmoj.png"
+      image: "dmoj.png"
     },
     {
       title: "IWitness",
@@ -117,7 +117,7 @@ export const Projects = () => {
       hardware: "TensorFlow",
       githubLink: "https://devpost.com/software/temp-rft3ge",
       demoLink: "https://devpost.com/software/temp-rft3ge",
-      image: "/witness.jpg"
+      image: "witness.jpg"
     }
   ];
 
@@ -127,7 +127,7 @@ export const Projects = () => {
       <div 
         className="absolute inset-0 z-0 pointer-events-none"
         style={{
-          backgroundImage: "url('/grid.jpg')", 
+          backgroundImage: "url('grid.jpg')", 
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           opacity: 0.04, 
