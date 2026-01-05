@@ -30,7 +30,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) =>{
                     <a href="#about" className="font-cantata text-gray-600 hover:text-sky-500 transition-colors">Contact</a>
 
                     <a 
-                    href="/Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
+                    href="Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
                     target="_blank"
                     rel="noopener noreferrer"
                  className="font-cantata text-gray-600 hover:text-sky-500 transition-colors">Resume</a>
