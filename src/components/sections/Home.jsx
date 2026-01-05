@@ -97,7 +97,7 @@ export const Home = () => {
 <div className="w-full lg:w-1/3 flex flex-col items-center order-1 lg:order-2 lg:-mt-6">
   <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-3 border-black shadow-sm">
     <img
-      src="/test.png"
+      src="test.png"
       alt="Andrew Yeung"
       className="w-full h-full object-cover"
     />
