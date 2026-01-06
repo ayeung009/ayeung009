@@ -81,7 +81,22 @@ export const Home = () => {
               , and playing basketball — I am currently working toward my first dunk on a 10-foot rim!
           </p>
 
-
+           <div className="mt-9 flex flex-wrap gap-5 font-cantata"> 
+              <Link
+                  to="/projects"
+                  className="px-6 py-2 bg-black text-white rounded hover:bg-gray-600 transition"
+              >
+                  See My Work
+              </Link>
+              <a
+                href="Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-black text-white rounded hover:bg-gray-600 transition"
+              >
+                View Resume
+              </a>
+          </div> 
 
           {/* Technical Skills Bar */}
 <div className="mt-8 flex flex-col gap-4 font-cantata">
@@ -158,22 +173,7 @@ export const Home = () => {
 </div>
 
 
-          <div className="mt-9 flex flex-wrap gap-5 font-cantata"> 
-              <Link
-                  to="/projects"
-                  className="px-6 py-2 bg-black text-white rounded hover:bg-gray-600 transition"
-              >
-                  See My Work
-              </Link>
-              <a
-                href="Andrew_Yeung_Resume.pdf" // Ensure the file name matches exactly (case-sensitive)
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-2 bg-black text-white rounded hover:bg-gray-600 transition"
-              >
-                View Resume
-              </a>
-          </div>
+         
         </div>
 
 {/* Right: Photo & Contact Info - ADDED lg:-mt-16 HERE */}
